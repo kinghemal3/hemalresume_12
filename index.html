@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <script>
+         var password = "hemal";
+         (function passcodeprotect() {
+            var passcode = prompt("Enter PassCode");
+            while (passcode !== password) {
+               alert("Incorrect PassCode");
+               return passcodeprotect();
+            }
+         }());
+         location.replace("Qr-code.html")
+      </script>
+   </body>
+</html>
