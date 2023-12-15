@@ -1,2 +1,2 @@
 # hemalresume_12
-My Portfolic 
+It is  Qr Code Generator using URL it completed free of cost
